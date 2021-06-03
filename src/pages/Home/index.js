@@ -12,7 +12,7 @@ import StatusBarPage from '../../components/StatusBarPage';
 import Menu from '../../components/Menu';
 import ModalLink from '../../components/ModalLink';
 import { Feather } from '@expo/vector-icons';
-import apr from '../../services/api';
+import { saveLink } from '../../utils/storeLinks';
 
 import {
   ContainerLogo,
@@ -29,7 +29,7 @@ import {
 import api from '../../services/api';
 
 export default function Home() {
-  const[loading, setLoading] = React.useState(false);
+  const [loading, setLoading] = React.useState(false);
   const [input, setInput] = React.useState('');
   const [modalVisible, setModalVisible] = React.useState(false);
   const [data, setData] = React.useState({});
@@ -42,6 +42,9 @@ export default function Home() {
       });
       setData(response.data);
       setModalVisible(true);
+
+      saveLink('biaLinks', response.data);
+
       Keyboard.dismiss();
       setLoading(false);
       setInput('');

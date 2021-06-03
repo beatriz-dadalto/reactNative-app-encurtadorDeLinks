@@ -1,7 +1,5 @@
 import axios from 'axios';
 
-// 64f5d1dfdb9b3a6bf5ca87cae6a19bcc36d290ef
-
 export const key = '64f5d1dfdb9b3a6bf5ca87cae6a19bcc36d290ef';
 
 const api = axios.create({
