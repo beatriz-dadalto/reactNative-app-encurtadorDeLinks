@@ -44,7 +44,7 @@ Além das funcionalidades que foram desenvolvidas nas aulas eu incrementei algum
 
 **3.** Paleta de cores.
 
-**4.** Mensagem de erro melhorada seguindo o principio --- da experiecia do usuário.
+**4.** Mensagem de erro melhorada, seguindo o princípio de Boas mensagens de erro das heurísticas de Nielsen.
 
 **5.** App disponível para download e instalar em celular Android.
 
