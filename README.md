@@ -8,7 +8,7 @@
 </ol>
 
 <h1 style="padding: 50px; background: #333333;">
-    <img alt="blink encurtador de link" title="#blink" src="linkaqui" width=260px/>
+    <img alt="blink encurtador de link" title="#blink" src="https://raw.githubusercontent.com/biacoelho/reactNative-app-encurtadorDeLinks/main/demo.gif" width=260px/>
 </h1>
 
 🌎 **Instale agora:**
