@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 
 export const ContainerButton = styled.TouchableOpacity`
   flex-direction: row;
-  background-color: rgba(255, 255, 255, 0.21);
+  background-color: rgba(255, 255, 255, 0.5);
   margin: 6px 10px;
   padding: 12px;
   border-radius: 6px;

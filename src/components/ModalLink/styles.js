@@ -26,7 +26,7 @@ export const LinkArea = styled.View`
 export const Title = styled.Text`
   font-size: 33px;
   font-weight: bold;
-  color: #1ccbae;
+  color: #e83f9e;
 `;
 
 export const LongUrl = styled.Text`
@@ -38,7 +38,7 @@ export const LongUrl = styled.Text`
 export const ShortLinkArea = styled.TouchableOpacity`
   height: 45px;
   width: 100%;
-  background-color: #172742;
+  background-color: #e83f9e;
   border-radius: 6px;
   flex-direction: row;
   justify-content: space-between;

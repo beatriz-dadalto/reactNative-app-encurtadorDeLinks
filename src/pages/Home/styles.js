@@ -17,7 +17,7 @@ export const ContainerContent = styled.View`
 `;
 
 export const Title = styled.Text`
-  font-size: 35px;
+  font-size: 42px;
   color: #FFF;
   font-weight: bold;
   text-align: center;
@@ -28,6 +28,7 @@ export const SubTitle = styled.Text`
   color: #FFF;
   text-align: center;
   padding-bottom: 10%;
+  font-weight: 700;
 `;
 
 export const ContainerInput = styled.View`
@@ -76,4 +77,6 @@ export const ButtonLink = styled.TouchableOpacity`
 
 export const ButtonLinkText = styled.Text`
   font-size: 18px;
+  color: #e83f9e;
+  font-weight: 700;
 `;

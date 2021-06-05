@@ -26,7 +26,7 @@ export async function deleteLink(links, id) {
     return (item.id !== id);
   });
 
-  await AsyncStorage.setItem('biaLinks', JSON.stringify(myLinks));
+  await AsyncStorage.setItem('BLinks', JSON.stringify(myLinks));
 
   return myLinks;
 }

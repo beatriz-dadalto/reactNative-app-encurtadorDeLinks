@@ -30,6 +30,7 @@ import api from '../../services/api';
 
 export default function Home() {
   const [loading, setLoading] = React.useState(false);
+  const initURL = 'https://';
   const [input, setInput] = React.useState('');
   const [modalVisible, setModalVisible] = React.useState(false);
   const [data, setData] = React.useState({});
@@ -43,16 +44,18 @@ export default function Home() {
       setData(response.data);
       setModalVisible(true);
 
-      saveLink('biaLinks', response.data);
+      saveLink('BLinks', response.data);
 
       Keyboard.dismiss();
       setLoading(false);
-      setInput('');
+      setInput(initURL);
     } catch (error) {
-      alert('Ops! Algo deu errado');
+      alert(`Seu link deve iniciar com https://
+      
+      Exemplo: https://youtube.com`);
       console.log(`${error}`);
       Keyboard.dismiss();
-      setInput('');
+      setInput(initURL);
       setLoading(false);
     }
   }
@@ -60,10 +63,10 @@ export default function Home() {
   return (
     <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
       <LinearGradient
-        colors={['#1ddbb9', '#132742']}
+        colors={['#390099', '#e83f9e']}
         style={{ flex: 1, justifyContent: 'center' }}
       >
-        <StatusBarPage barStyle="light-content" backgroundColor="#1ddbb9" />
+        <StatusBarPage barStyle="light-content" backgroundColor="#390099" />
 
         <Menu />
 
@@ -79,7 +82,7 @@ export default function Home() {
           </ContainerLogo>
 
           <ContainerContent>
-            <Title>SujeitoLink</Title>
+            <Title>BLink</Title>
             <SubTitle>Cole seu link para encurtar</SubTitle>
 
             <ContainerInput>
@@ -87,7 +90,8 @@ export default function Home() {
                 <Feather name="link" size={22} color="#FFF" />
               </BoxIcon>
               <Input
-                placeholder="Cole seu link aqui"
+                textContentType="URL"
+                placeholder="https://www.exemplo.com"
                 placeholderTextColor="white"
                 autoCapitalize="none"
                 autoCorrect={false}
