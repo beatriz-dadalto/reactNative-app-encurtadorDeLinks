@@ -1,8 +1,8 @@
-#### BLink | Encurtador de link
+#### 🌝 BLink | Encurtador de link
 
 <ol align="left">
  <li><strong><a href="#--sobre-o-projeto">Sobre</a></strong></li>
- <li><strong><a href="#--extras">O que adicionei de diferente ao projeto</a></strong></li>
+ <li><strong><a href="#--add-extras">O que adicionei de diferente ao projeto</a></strong></li>
  <li><strong><a href="#--tecnologias">Tecnologias</a></strong></li>
  <li><strong><a href="#--autor">Autor</a></strong></li>
 </ol>
@@ -27,10 +27,9 @@ Participei da [Semana React Native Insider](https://sujeitoprogramador.com/) rea
 - Salva automaticamente o link encurtado no armazenamento interno do celular.
 - Deleta um link encurtado.
 - Abre o link encurtado sem precisar sair do app.
-
 <br />
 
-### [](https://github.com/biacoelho/reactNative-app-encurtadorDeLinks##--extras) :pushpin: O que adicionei de diferente ao projeto
+### [](https://github.com/biacoelho/reactNative-app-encurtadorDeLinks#--add-extras) 📌 O que adicionei de diferente ao projeto
 
 Além das funcionalidades que foram desenvolvidas nas aulas eu incrementei algumas features ao projeto:
 
