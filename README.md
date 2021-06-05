@@ -2,7 +2,7 @@
 
 <ol align="left">
  <li><strong><a href="#--sobre-o-projeto">Sobre</a></strong></li>
- <li><strong><a href="#--funcionalidades-extras">O que adicionei de diferente ao projeto</a></strong></li>
+ <li><strong><a href="#--extras">O que adicionei de diferente ao projeto</a></strong></li>
  <li><strong><a href="#--tecnologias">Tecnologias</a></strong></li>
  <li><strong><a href="#--autor">Autor</a></strong></li>
 </ol>
@@ -17,9 +17,9 @@
 
 <br />
 
-### [](https://github.com/biacoelho/reactNative-app-encurtadorDeLink#--sobre-o-projeto) 🔥 Sobre o projeto
+### [](https://github.com/biacoelho/reactNative-app-encurtadorDeLinks#--sobre-o-projeto) 🔥 Sobre o projeto
 
-Participei da [#Semana React Native Insider](https://sujeitoprogramador.com/) realizada em 31/05/2021 a 06/06/2021. Foi desenvolvido um app encurtador de links.
+Participei da [Semana React Native Insider](https://sujeitoprogramador.com/) realizada em 31/05/2021 a 06/06/2021. Foi desenvolvido um app encurtador de links.
 
 **Funcionalidades**
 
@@ -30,9 +30,7 @@ Participei da [#Semana React Native Insider](https://sujeitoprogramador.com/) re
 
 <br />
 
-### [](https://github.com/biacoelho/reactNative-app-encurtadorDeLink#--funcionalidades-extras) 📌 O que adicionei de diferente ao projeto
-
-<br />
+### [](https://github.com/biacoelho/reactNative-app-encurtadorDeLinks##--extras) :pushpin: O que adicionei de diferente ao projeto
 
 Além das funcionalidades que foram desenvolvidas nas aulas eu incrementei algumas features ao projeto:
 
@@ -50,7 +48,7 @@ Além das funcionalidades que foram desenvolvidas nas aulas eu incrementei algum
 
 <br />
 
-### [](https://github.com/biacoelho/reactNative-app-encurtadorDeLink#--tecnologias) 🤖 Tecnologias
+### [](https://github.com/biacoelho/reactNative-app-encurtadorDeLinks#--tecnologias) 🤖 Tecnologias
 
 - **Async Storage**
 - **Navigation Drawer**
@@ -66,7 +64,7 @@ Além das funcionalidades que foram desenvolvidas nas aulas eu incrementei algum
 
 <br />
 
-### [](https://github.com/biacoelho/reactNative-app-encurtadorDeLink#--autor) 💎 Autor
+### [](https://github.com/biacoelho/reactNative-app-encurtadorDeLinks#--autor) 💎 Autor
 
 <a href="https://linktr.ee/biacoelho">
  <img style="border-radius: 8px" src="https://avatars.githubusercontent.com/u/29661219?s=460&u=42024e42215c64adeba9a923579809c57f36fe0d&v=4" width="100px;" alt="Bia Coelho"/>
