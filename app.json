@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "mylink",
-    "slug": "mylink",
+    "name": "BLink",
+    "slug": "BLink",
+    "description": "Encurtador de links",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,9 +18,11 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.bcoelho.blink",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.bcoelho.blink",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
